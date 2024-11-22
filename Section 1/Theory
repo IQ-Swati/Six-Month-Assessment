@@ -16,9 +16,11 @@ Theory: Explain how you would set up a highly available and scalable web applica
 12. Enter subnet name, availability zone, IPv4 CIDR block range of VPC, then subnet block range and click on Create subnet.
 
 In this way, Your VPC is Created Successfully.
+
+
 =========================================================================================================================================
 
-# Creating AWS Instance:
+# Creating EC2:
 1. Navigate to EC2 Instance Page.
 2. Click on Launch Instance.
 3. Enter  the specific name of the Instance.
@@ -29,10 +31,12 @@ In this way, Your VPC is Created Successfully.
 8. Check for other settings as per requirement, and click on Launch Instance.
 9. After instance is created, check for Public IP, and extract password from .pem file and you can login into instance successfully.
 
-EC2 instance is created.
+In this way we have successfully created the EC2 machine.
 
-Creating AWS RDS Instance-
 
+==============================================================================================================================================
+
+# Creating RDS Instance-
 1. Open AWS Console.
 2. Go to AWS RDS.
 3. Click On Create Database.
@@ -49,9 +53,12 @@ Creating AWS RDS Instance-
 14. Go back to application such as DBeaver.
 15. Enter Endpoint of database, port, username and password, and you can use the database.
 
-AWS RDS database is created.
+In this we have successfully created the Database in AWS.
 
+
+===================================================================================================================================================
 Creating Load Balancer in AWS-
 
 1. Open AWS Console.
 2. There are multiple options for Load Balancer- Application Load Balancer, Network Load Balancer, Gateway Load Balancer, Classic Load Balancer.
+3. Create the load balancer as per our requirements.
