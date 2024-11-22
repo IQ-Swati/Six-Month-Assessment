@@ -1,1 +1,11 @@
+Theory: Outline the steps to set up a CI/CD pipeline in Azure DevOps for a Java application that includes building the code, running unit tests, and deploying to a staging environment.
 
+#Steps to Setup CI/CD Pipeline in Azure devops:
+
+There are two stages to create a CI/CD pipelines in Azure. First We need to create the build pipeline i.e. CI Pipeline
+    1. Connect with the Source Control Manager like github, Azure repos, gitlab.
+    2. We build the pipeline by adding multiple jobs in the yaml.
+    3. After the pipeline will build, then it will create an artifact.
+
+The second step is to run the pipeline i.e. CD Pipeline
+   1. In this stage we simply deploy or we can simply say that we run the pipeline on multiple stages like dev, uat or prod.
