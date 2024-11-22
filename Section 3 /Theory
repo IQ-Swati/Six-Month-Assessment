@@ -1,13 +1,35 @@
 Theory: Outline the steps to set up a CI/CD pipeline in Azure DevOps for a Java application that includes building the code, running unit tests, and deploying to a staging environment.
 
-#Steps to Setup CI/CD Pipeline in Azure devops:
+# Steps to Setup CI/CD Pipeline in Azure devops:
 
 There are two stages to create a CI/CD pipelines in Azure. 
 
-First We need to create the build pipeline i.e. CI Pipeline
-    1. Connect with the Source Control Manager like github, Azure repos, gitlab.
-    2. We build the pipeline by adding multiple jobs in the yaml.
-    3. After the pipeline will build, then it will create an artifact.
+# CREATE BUILD PIPELINE:
+Steps to Create a build pipeline:
+1. Login to Azure devops with credentials.
+2. Choose the Source Control Manager e.g. github
+NOTE: You can also go for the classic editor.
+3. From there you select the source, project, repository and branch of your github where your code will be placed.
+4. Now you need to choose the task or we can simply say that job.
+5. Select your agent specification.
+6. Add a build task.
+7. Add a test task.
+8. Add a pulish build task.
+9. Click on save and run.
 
-The second step is to run the pipeline i.e. CD Pipeline
-   1. In this stage we simply deploy or we can simply say that we run the pipeline on multiple stages like dev, uat or prod.
+Check the build and test the result. In this way your build pieline will be created.
+From here an artifact will be created.
+
+=======================================================================================================================================================================
+
+# CREATE RELEASE PIPELINE:
+Steps to Create a release pipeline:
+1. Under the pipeline tab, select Releases.
+2. Select start with an Empty job.
+3. In the Artifacts box, select + Add an artifact. 
+4. Under Source, select the build pipeline which you have created. 
+5. Select Add.
+6. Change the name of Stage according to your need. e.g. Dev.
+
+After following these steps you have created your release pipeline.
+
