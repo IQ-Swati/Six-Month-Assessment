@@ -14,7 +14,7 @@ NOTE: You can also go for the classic editor.
 5. Select your agent specification.
 6. Add a build task.
 7. Add a test task.
-8. Add a pulish build task.
+8. Add a publish build task.
 9. Click on save and run.
 
 Check the build and test the result. In this way your build pieline will be created.
