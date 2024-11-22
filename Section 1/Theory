@@ -19,12 +19,12 @@ In this way, Your VPC is Created Successfully.
 =========================================================================================================================================
 
 # Creating AWS Instance:
-1. Go to EC2 Instance Page.
+1. Navigate to EC2 Instance Page.
 2. Click on Launch Instance.
-3. Enter name of Instance.
-4. Select the Amazon Machine Image (AMI), e.g. Windows for Windows instance.
+3. Enter  the specific name of the Instance.
+4. Select the Machine Image (AMI), like Ubuntu.
 5. Select Architecture- 64-bit, Instance type- configurations.
-6. Create Key pair name for login.
+6. Create Key pair name for login, if exists then we dont need to create any key-pair.
 7. Select Network settings for EC2 instance.
 8. Check for other settings as per requirement, and click on Launch Instance.
 9. After instance is created, check for Public IP, and extract password from .pem file and you can login into instance successfully.
