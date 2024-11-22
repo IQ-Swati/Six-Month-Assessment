@@ -1,1 +1,1 @@
-
+Lab: Set up a build pipeline in Azure DevOps that clones a Git repository, builds a simple Java application, and archives the build artifacts. Provide the URL of the Azure DevOps pipeline.
