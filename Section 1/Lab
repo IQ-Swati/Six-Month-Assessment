@@ -1,1 +1,3 @@
+LAB: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
 
+I have created a S3 bucket in AWS.
