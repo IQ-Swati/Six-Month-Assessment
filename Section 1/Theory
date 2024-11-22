@@ -1,1 +1,19 @@
+Theory: Explain how you would set up a highly available and scalable web application using AWS services. Include VPC, EC2, Load Balancer, Auto Scaling, and RDS in your explanation.
 
+
+# Create VPC:
+1. For setup VPC, the very first step is to create VPC.
+2. then we will create subnets. it could be private or public.
+3. After creating subnets, we need to set up the firewall rules for the VPC.
+
+
+
+# Create EC2:
+1. 
+
+
+
+# Setup Load Balancer:
+
+
+# Setup RDS:
